@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkseagreen;
+            margin: 0px;
+        }
+        header {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px 1px rgba(0, 0, 0, 0.432);
+        }
+        main {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px 1px rgba(0, 0, 0, 0.432);
+        }
+        nav {
+            background-color: darkslategrey;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.479);
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: azure;
+            font-weight: bold;
+            margin-right: 20px;
+            
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: yellow;
+        }
+        article {
+            background-color: rgba(195, 238, 209, 0.753);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(132, 163, 127)
+            
+            
+        }
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: azure;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: azure;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, similique quos. Eligendi repellendus autem porro cumque. Aliquid, temporibus autem? Perferendis delectus hic laudantium eaque suscipit quod necessitatibus accusantium laboriosam possimus?</p>
+                <aside>
+                    <p>Artigo escrio por Jorge</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por LokiShaman</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
